@@ -9,13 +9,15 @@ function App() {
       <div className="container mx-auto">
         <NavBar />
         <Hero />
-      
-      {/* {(<div className="grid grid-cols-3 gap-4">).map(<div className="grid grid-cols-3 gap-4">) => (
+        <Content />
+   {/* {(<div className="grid grid-cols-3 gap-4">).map(<div className="grid grid-cols-3 gap-4">) => (
            <Content />
         ))}
       </div>}}
        
       </div> */}
+      </div>   
+      
   );
 }
 
